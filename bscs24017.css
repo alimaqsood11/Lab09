@@ -1,22 +1,38 @@
 .main-head{
     font-size: 30px;
+    text-align: center;
+    transition: color 0.15s;
+}
+
+.main-head:hover{
+    color: #506cdf;
 }
 
 .first-div{
     width: 200px;
     height: 60px;
-    background-color: aqua;
-    border-width: 1px;
-    border-color: blueviolet;
+    background-color: rgb(23, 52, 80);
+    border-width: 4px;
+    border-color: rgb(93, 50, 134);
     border-radius: 20%;
-    margin: 10px;
-    padding: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.first-div:hover{
+    color:aqua;
+    background-color: black;
+    transform: scale(1.1);
+}
 .normal-para{
-    color: rgb(0, 128, 70);
+    color: rgb(199, 104, 204);
     background-color: rgb(231, 211, 185);
     text-align: center;
+    border-radius: 10px;
 }
 
 #fav-para{
@@ -24,15 +40,113 @@
 }
 
 .head2{
-    background-color: aquamarine;
+    background-color: rgb(43, 205, 202);
     text-align: center;
+    border-radius: 4px;
+}
+
+.head2:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 0, 0);
+    color:rgb(231, 226, 226)
 }
 
 #button{
-    padding-top: 6px;
-    padding-right: 6px;
-    padding-left: 7px;
-    padding-bottom: 6px;
-    background-color: black;
-    color: rgb(196, 253, 255);
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-left: 14px;
+    padding-bottom: 18px;
+    background-color:aquamarine;
+    color: rgb(0, 0, 0);
+    display: block;        
+    margin: 0;
+    border-radius: 16px;
+    transition: transform 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#button:hover{
+    color: aliceblue;
+    background-color: #000;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+.center-image {
+    border-color: rgb(201, 77, 77);
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(180, 211, 209, 0.5);
+    transition: transform 0.3s;
+}
+
+.center-image img {
+    display: block;
+    border-radius: 10px;
+    width: 500px; 
+    height: auto;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+}
+
+.center-image:hover{
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-position: center; /* Centers the background image */
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0.99;
+}
+
+
+.horizon{
+    width: 30%;
+    background-color: #0b0c10;
+    height: 3px;
+
+}
+
+.list {
+    text-align: center;
+    transition: color 0.15s;
+}
+
+.list ol, 
+.list ul {
+    list-style-position: inside; /* Markers aligned with the text */
+    padding-left: 0; /* Remove default left padding */
+    margin: 0 auto;  /* Center the list itself */
+    display: inline-block; /* Allow the list to behave like an inline element for easy centering */
+}
+
+.list:hover {
+    color: beige;
+    transform: scale(1.05);
+}
+
+
+.cover {
+    text-align: center;
+    opacity: 0.6; /* Slightly transparent wrapper */
+    background-color: rgba(255, 255, 255, 0.7); /* White background with translucency */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
