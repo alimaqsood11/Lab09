@@ -103,10 +103,10 @@
 
 body {
     background-image: url('background.jpg');
-    background-size: cover; /* Makes the image cover the entire screen */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the background fixed while scrolling */
-    background-position: center; /* Centers the background image */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
     font-family: Arial, sans-serif;
     color: #000;
     margin: 0;
@@ -130,10 +130,10 @@ body {
 
 .list ol, 
 .list ul {
-    list-style-position: inside; /* Markers aligned with the text */
-    padding-left: 0; /* Remove default left padding */
-    margin: 0 auto;  /* Center the list itself */
-    display: inline-block; /* Allow the list to behave like an inline element for easy centering */
+    list-style-position: inside; 
+    padding-left: 0;
+    margin: 0 auto;  
+    display: inline-block; 
 }
 
 .list:hover {
@@ -144,9 +144,9 @@ body {
 
 .cover {
     text-align: center;
-    opacity: 0.6; /* Slightly transparent wrapper */
-    background-color: rgba(255, 255, 255, 0.7); /* White background with translucency */
+    opacity: 0.6; 
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
