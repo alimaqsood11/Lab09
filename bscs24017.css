@@ -13,3 +13,26 @@
     padding: 5px;
     
 }
+.normal-para{
+    color: rgb(0, 128, 70);
+    background-color: rgb(231, 211, 185);
+    text-align: center;
+}
+
+#fav-para{
+    color: purple;
+}
+
+.head2{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#button{
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-left: 7px;
+    padding-bottom: 6px;
+    background-color: black;
+    color: rgb(196, 253, 255);
+}
