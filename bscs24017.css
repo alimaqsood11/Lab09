@@ -1,3 +1,15 @@
 .main-head{
     font-size: 30px;
 }
+
+.first-div{
+    width: 200px;
+    height: 60px;
+    background-color: aqua;
+    border-width: 1px;
+    border-color: blueviolet;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+    
+}
