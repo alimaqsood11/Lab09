@@ -1,11 +1,11 @@
 .main-head{
     font-size: 30px;
-    text-align: center;
-    transition: color 0.15s;
+    text-align: center;                  /* Aligned headings in center */
+    transition: color 0.15s;               
 }
 
 .main-head:hover{
-    color: #506cdf;
+    color: #506cdf;                 /*Changing color when hovered over*/
 }
 
 .first-div{
@@ -14,7 +14,7 @@
     background-color: rgb(23, 52, 80);
     border-width: 4px;
     border-color: rgb(93, 50, 134);
-    border-radius: 20%;
+    border-radius: 20%;                  /*Alignment and other changes*/
     margin: 10px auto;
     padding: 20px;
     display: flex;
@@ -59,7 +59,7 @@
     background-color:aquamarine;
     color: rgb(0, 0, 0);
     display: block;        
-    margin: 0;
+    margin: 0;                            /*Button for Gmail*/
     border-radius: 16px;
     transition: transform 0.3s;
     text-decoration: none;
@@ -107,7 +107,7 @@ body {
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center; 
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;         /*Background image styling*/
     color: #000;
     margin: 0;
     padding: 0;
